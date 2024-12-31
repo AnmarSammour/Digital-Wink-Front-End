@@ -11,17 +11,21 @@ body {
     color: #000;
 }
 
-/* Header Styles */
-.header-container {
-    background-color: #E6F0FF;
-}
 
-.header-content {
+.wrapper {
     width: 85%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #E6F0FF;
+}
+
+.header-wrapper {
+    justify-content: space-between;
 }
 
 /* Navigation Styles */
