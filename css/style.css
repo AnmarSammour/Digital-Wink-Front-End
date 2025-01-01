@@ -184,3 +184,127 @@ a {
 .sale-banner a:hover {
     letter-spacing: 2px;
 }
+
+/* Footer Styles */
+footer {
+    background: #1D3557;
+    margin-top: 50px;
+}
+
+footer .wrapper {
+    flex-direction: column;
+    color: #fff;
+}
+
+.newsletter-section, .footer-links, .footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 0;
+}
+
+.newsletter-section {
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c2c2c2;
+    gap: 40px;
+}
+
+.newsletter-section p {
+    padding-top: 15px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-section input {
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.newsletter-section .subscribe {
+    width: 150px;
+    height: 50px;
+    background: #FE68AE;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.newsletter-section a {
+    color: #c2c2c2;
+    font-size: 24px;
+}
+
+.newsletter-section a:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+.footer-links {
+    margin-top: 50px;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.footer-links a {
+    display: block;
+    color: #c2c2c2;
+    line-height: 2.2;
+    transition: 0.5s;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    transform: scale(1.07);
+}
+
+.footer-links h3 {
+    margin-bottom: 30px;
+}
+
+.footer-bottom {
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #c2c2c2;
+}
+
+.footer-bottom span, .footer-bottom a {
+    padding: 0 3px;
+    color: #FE68AE;
+}
+
+.footer-bottom span i {
+    animation: heartbeat 0.9s linear infinite alternate;
+}
+
+@keyframes heartbeat {
+    0% {
+        color: #000;
+    }
+
+    50% {
+        transform: scale(1.3);
+        color: #FE68AE;
+    }
+
+    100% {
+        color: #000;
+    }
+}
