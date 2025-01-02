@@ -11,7 +11,6 @@ body {
     color: #000;
 }
 
-
 .wrapper {
     width: 85%;
     margin: auto;
@@ -81,13 +80,13 @@ a {
 }
 
 /* Header Link Styles */
-.header-content a {
+.header-wrapper a {
     padding: 10px;
     font-size: 16px;
     color: #0D3B40;
 }
 
-.header-content a:hover {
+.header-wrapper a:hover {
     color: #fe68ae;
 }
 
@@ -261,7 +260,8 @@ a {
     color: #1D3557;
 }
 
-.services-support .wrapper h3, .services-support .wrapper p {
+.services-support .wrapper h3,
+.services-support .wrapper p {
     color: #1D3557;
     margin-top: 10px;
 }
@@ -277,7 +277,9 @@ footer .wrapper {
     color: #fff;
 }
 
-.newsletter-section, .footer-links, .footer-bottom {
+.newsletter-section,
+.footer-links,
+.footer-bottom {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -366,7 +368,8 @@ footer .wrapper {
     color: #c2c2c2;
 }
 
-.footer-bottom span, .footer-bottom a {
+.footer-bottom span,
+.footer-bottom a {
     padding: 0 3px;
     color: #FE68AE;
 }
