@@ -524,6 +524,25 @@ a {
     right: 10%;
 }
 
+/* Recommended Products style */
+.recommended-products h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.recommended-products .solution-items .item {
+    overflow: hidden;
+}
+
+.recommended-products .solution-items .item::after {
+    opacity: 0;
+    transform: translateY(-75%);
+}
+
+.recommended-products .solution-items .item:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 /* Latest News Style */
 .latest-news {
