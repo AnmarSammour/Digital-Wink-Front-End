@@ -6,8 +6,8 @@
 
 /* Body Styles */
 body {
-    font-family: sans-serif;
-    background-color: #FAF8FF;
+    font-family: "Dancing Script", serif;
+    background-color: #F5F3FF;
     color: #000;
 }
 
@@ -231,6 +231,77 @@ a {
     border: 1px solid #1D3557;
     color: #1D3557;
     background: #fff;
+}
+
+/* Digital Services style */
+.digital-services .wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.digital-services .wrapper .service-item {
+    position: relative;
+    width: 330px;
+    height: 330px;
+    margin: 50px 0 100px 0;
+    background-color: #fff;
+    padding: 10px 10px 70px 10px;
+    overflow: hidden;
+}
+
+.digital-services .wrapper .service-item::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 30%;
+    background-image: linear-gradient(to top, #729fde, #729fde02);
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.digital-services .wrapper .service-item img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.service-item:hover img {
+    transform: scale(1.1);
+}
+
+.service-item .service-description {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    transform: translateY(40px);
+    transition: 1s;
+    z-index: 2;
+}
+
+.service-item:hover .service-description {
+    transform: translateY(0px);
+}
+
+.service-item .service-description h2 {
+    color: #1D3557;
+    margin: 15px 0;
+}
+
+.service-item .service-description a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+}
+
+.service-item .service-description a:hover {
+    letter-spacing: 1px;
 }
 
 
