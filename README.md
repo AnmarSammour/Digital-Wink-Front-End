@@ -44,7 +44,7 @@ Digital Wink is a functional and responsive website designed as part of a task t
 
 1. **Clone the Repository**:
    ```bash
-   git clone <[repository-url](https://github.com/AnmarSammour/Digital-Wink-Front-End)>
+   git clone (https://github.com/AnmarSammour/Digital-Wink-Front-End)
    ```
 2. **Navigate to the Project Directory**:
    ```bash
